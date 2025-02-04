@@ -8,7 +8,7 @@ The topics discussed revolved around how I did the hashing and the challenges I 
 
 From: Bwalya M.
 Subject: Password Cracking Report 
-Date: 11/30/2022
+Date: 11/30/2024
 
 The Windows XP password hash files which I used to access the System and SAM files was the Ophcrack rainbow table from the XP German (7.4GB) folder. The XP German folder had hash tables with special characters, mixedalphanum, alphanum, numbers, and dictionary-based characters, but the length is 16 characters for length NT hashes. The same methods that a hacker would use to steal the passwords in a live situation. I was able to crack 15 password hashes, but it took me a week to get them all since every time I was able to access them on the Kali VM in VirtualBox was only when I had access to the UNT lab computers.
 The Lab on Password cracking help that I got with Hashcat is known for being the fastest password recovery tool due to its design which is for solving complex passwords in a very quick time. With features like wordlist and brute force attacks is how all the passwords are solved in Hashcat. So, I decided to make a wordlist of all the Charlie Brown words from the thanksgiving movie. Is how I approach my attempt to solve the passwords, since I used hashcat to attempt to solve Charlie Brown hash maps, so I had to do research on how to use it. I downloaded it into my Kali Linux VM VirtualBox system. I struggled at the beginning because this was my first time using Hashcat.
